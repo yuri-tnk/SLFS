@@ -1,0 +1,65 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="test_slfs" version="2">
+  <project Name="test_slfs">
+    <configuration Name="Common" Target="LPC1766" arm_architecture="v7M" arm_core_type="Cortex-M3" arm_linker_heap_size="128" arm_linker_process_stack_size="0" arm_linker_stack_size="128" arm_simulator_memory_simulation_filename="$(TargetsDir)/LPC1000/LPC1000SimulatorMemory.dll" arm_simulator_memory_simulation_parameter="0x40000;0x8000;0x8000" arm_target_debug_interface_type="ADIv5" arm_target_loader_parameter="14745600" c_preprocessor_definitions="USE_PROCESS_STACK" c_user_include_directories="$(TargetsDir)/LPC1000/include" link_include_startup_code="No" linker_additional_files="$(TargetsDir)/LPC1000/lib/liblpc1000$(LibExt)$(LIB);$(TargetsDir)/LPC1000/lib/cmsis$(LibExt)$(LIB)" linker_memory_map_file="$(TargetsDir)/LPC1000/LPC1766_MemoryMap.xml" linker_output_format="hex" oscillator_frequency="14.7456MHz" project_directory="" project_type="Executable" property_groups_file_path="$(TargetsDir)/LPC1000/propertyGroups.xml"/>
+    <configuration Name="RAM" Placement="RAM" linker_section_placement_file="$(StudioDir)/targets/ram_placement.xml" target_reset_script="SRAMReset()"/>
+    <configuration Name="Flash" Placement="Flash" arm_target_flash_loader_file_path="$(TargetsDir)/LPC1000/Release/Loader_rpc.elf" arm_target_flash_loader_type="LIBMEM RPC Loader" linker_section_placement_file="$(StudioDir)/targets/flash_placement.xml" target_reset_script="FLASHReset()"/>
+    <folder Name="System Files">
+      <file Name="startup_hardware_init.s" file_name="startup_hardware_init.s"/>
+      <file Name="LPC1700_Target.js" file_name="$(TargetsDir)/LPC1000/LPC1700_Target.js">
+        <configuration Name="Common" file_type="Reset Script"/>
+      </file>
+      <file Name="flash_placement.xml" file_name="flash_placement.xml"/>
+      <file Name="LPC1766_tn_startup.s" file_name="LPC1766_tn_startup.s"/>
+      <file Name="LPC1766_MemoryMap.xml" file_name="LPC1766_MemoryMap.xml"/>
+      <file file_name="thumb_crt0.s"/>
+    </folder>
+    <configuration Name="THUMB Flash Debug" Placement="Flash" arm_target_flash_loader_file_path="$(TargetsDir)/LPC1000/Release/Loader_rpc.elf" arm_target_loader_parameter="14745600" c_preprocessor_definitions="TNKERNEL_PORT_CORTEXM3" gcc_entry_point="reset_handler" gcc_optimization_level="Level 1" link_symbol_definitions="" linker_additional_options="" linker_section_placement_file="$(ProjectDir)/flash_placement.xml" oscillator_frequency="14.7456MHz"/>
+    <folder Name="TNKernel">
+      <folder Name="CortexM3">
+        <file file_name="../../../../../TNKernel/CortexM3/tn_port_cm3.c"/>
+        <file file_name="../../../../../TNKernel/CortexM3/tn_port_cm3_gcc.s"/>
+      </folder>
+      <file file_name="../../../../../TNKernel/tn_utils.c"/>
+      <file file_name="../../../../../TNKernel/tn.c"/>
+      <file file_name="../../../../../TNKernel/tn_dqueue.c"/>
+      <file file_name="../../../../../TNKernel/tn_event.c"/>
+      <file file_name="../../../../../TNKernel/tn_mem.c"/>
+      <file file_name="../../../../../TNKernel/tn_mutex.c"/>
+      <file file_name="../../../../../TNKernel/tn_sem.c"/>
+      <file file_name="../../../../../TNKernel/tn_tasks.c"/>
+    </folder>
+    <configuration Name="THUMB Flash Release" c_preprocessor_definitions="TNKERNEL_PORT_CORTEXM3"/>
+    <folder Name="cpu">
+      <file file_name="../../../../../cpu/LPC17XX/lpc17xx_core.c"/>
+    </folder>
+    <folder Name="fs_common">
+      <file file_name="../../../../../fs_common/df_flash.c"/>
+      <file file_name="../../../../../fs_common/df_create_init.c"/>
+      <file file_name="../../../../../fs_common/df_disk_access.c"/>
+    </folder>
+    <folder Name="slfs">
+      <file file_name="../../../../../slfs/slfs_log.c"/>
+      <file file_name="../../../../../slfs/slfs_api.c"/>
+      <file file_name="../../../../../slfs/slfs_api_ex.c"/>
+      <file file_name="../../../../../slfs/slfs_create_init.c"/>
+    </folder>
+    <folder Name="test_slfs">
+      <file file_name="../../../test_slfs/utils.c"/>
+      <file file_name="../../../test_slfs/main.c"/>
+      <file file_name="../../../test_slfs/shell.c"/>
+      <file file_name="../../../test_slfs/slfs_rand.c"/>
+      <file file_name="../../../test_slfs/slfs_test_utilities.c"/>
+      <file file_name="../../../test_slfs/slfs_tst_dump.c"/>
+      <file file_name="../../../test_slfs/tn_sprintf.c"/>
+      <file file_name="../../../test_slfs/tn_user.c"/>
+      <file file_name="../../../test_slfs/unix_str_func.c"/>
+    </folder>
+  </project>
+  <configuration Name="THUMB Flash Debug" inherited_configurations="THUMB;Flash;Debug"/>
+  <configuration Name="THUMB" arm_instruction_set="THUMB" arm_library_instruction_set="THUMB" c_preprocessor_definitions="__THUMB" hidden="Yes"/>
+  <configuration Name="Flash" c_preprocessor_definitions="__FLASH_BUILD" hidden="Yes"/>
+  <configuration Name="Debug" build_debug_information="Yes" c_preprocessor_definitions="DEBUG" gcc_optimization_level="None" hidden="Yes" link_include_startup_code="No"/>
+  <configuration Name="THUMB Flash Release" inherited_configurations="THUMB;Flash;Release"/>
+  <configuration Name="Release" build_debug_information="No" c_preprocessor_definitions="NDEBUG" gcc_optimization_level="Level 1" hidden="Yes" link_include_startup_code="No"/>
+</solution>

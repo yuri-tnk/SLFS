@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1032056428</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\tn_sem.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\tn_tasks.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\tn_utils.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\test1.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\test_slfs.hex</file>
+      <file>$PROJ_DIR$\Debug\Obj\slfs_rand.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\tn_event.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\df_create_init.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\tn_tasks.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\tn_sem.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\test1_CortexM3\utils_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\test_slfs\utils_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\test1_CortexM3\tn_sprintf.c</file>
+      <file>$PROJ_DIR$\..\..\..\test1_CortexM3\tn_user.c</file>
+      <file>$PROJ_DIR$\..\..\..\test1_CortexM3\test1.c</file>
+      <file>$PROJ_DIR$\..\..\..\test1_CortexM3\lpc17xx_core.c</file>
+      <file>$PROJ_DIR$\..\..\..\TNKernel\tn.c</file>
+      <file>$PROJ_DIR$\..\..\..\test1_CortexM3\utils.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\test1.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\test_slfs.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\tn_sprintf.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\tn_user.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\tn_user.o</file>
+      <file>$PROJ_DIR$\..\..\..\TNKernel\tn_utils.c</file>
+      <file>$PROJ_DIR$\..\..\..\TNKernel\tn_mutex.c</file>
+      <file>$PROJ_DIR$\..\..\..\TNKernel\tn_event.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\tn_port_cm3.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\cstartup_LPC176X.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc17xx_core.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\tn_mutex.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\utils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\fs_common\df_create_init.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\fs_common\df_flash.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\test1.o</file>
+      <file>$PROJ_DIR$\..\..\..\TNKernel\tn_dqueue.c</file>
+      <file>$PROJ_DIR$\..\..\..\TNKernel\tn_tasks.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\..\TNKernel\CortexM3\tn_port_cm3.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\slfs\slfs_api.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\cpu\LPC17XX\lpc17xx_core.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\tn.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\tn_event.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\tn_dqueue.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\tn_mem.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\tn_port_cm3.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\slfs_tst_dump.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\slfs_test_utilities.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\..\test_slfs\globals.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\slfs_rand.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\TNKernel\tn_mem.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\TNKernel\tn_mutex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\TNKernel\CortexM3\tn_port_cm3.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\TNKernel\CortexM3\tn_port_cm3_iar.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\TNKernel\tn_sem.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\TNKernel\tn_tasks.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\TNKernel\tn_utils.c</file>
+      <file>$PROJ_DIR$\cstartup_LPC176X.s</file>
+      <file>$PROJ_DIR$\startup_hardware_init_iar.s</file>
+      <file>$PROJ_DIR$\Debug\Obj\shell.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\TNKernel\CortexM3\tn_port_cm3_iar.s</file>
+      <file>$PROJ_DIR$\Debug\Obj\slfs_test_utilities.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\fs_common\df_disk_access.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\utils.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\utils_uart.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\fs_common\flash_fs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\TNKernel\tn_port.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\fs_common\sys_errorcodes.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\fs_common\flash_fs_cfg.h</file>
+      <file>$PROJ_DIR$\..\..\..\test_slfs\slfs_test.h</file>
+      <file>$PROJ_DIR$\..\..\..\test_slfs\types.h</file>
+      <file>$PROJ_DIR$\..\..\..\test_slfs\shell.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\df_disk_access.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\cpu\LPC17XX\LPC176x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\TNKernel\tn.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\df_flash.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\df_create_init.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_hardware_init_iar.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\fs_common\df_flash.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\tn_utils.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\tn_port_cm3_iar.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\tn_mutex.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\df_disk_access.o</file>
+      <file>$PROJ_DIR$\LPC1766_Flash.icf</file>
+      <file>$PROJ_DIR$\Debug\List\test1.map</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\slfs_api_ex.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\slfs_create_init.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\slfs_log.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\slfs_create_init.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\TNKernel\tn_utils.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\slfs_api.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\slfs_log.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\slfs_api.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\unix_str_func.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\unix_str_func.o</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\..\..\..\TNKernel\tn_sem.c</file>
+      <file>$PROJ_DIR$\..\..\..\TNKernel\tn_mem.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\tn.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\utils_uart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\tn_dqueue.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\slfs_tst_dump.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\slfs_api_ex.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\df_flash.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\shell.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\tn_mem.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\tn_sprintf.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc17xx_core.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\slfs\slfs_api_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\slfs\slfs_create_init.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\slfs\slfs_log.c</file>
+      <file>$PROJ_DIR$\..\..\..\test_slfs\main.c</file>
+      <file>$PROJ_DIR$\..\..\..\test_slfs\shell.c</file>
+      <file>$PROJ_DIR$\..\..\..\test_slfs\slfs_rand.c</file>
+      <file>$PROJ_DIR$\..\..\..\test_slfs\slfs_tst_dump.c</file>
+      <file>$PROJ_DIR$\..\..\..\test_slfs\slfs_test_utilities.c</file>
+      <file>$PROJ_DIR$\..\..\..\test_slfs\tn_sprintf.c</file>
+      <file>$PROJ_DIR$\..\..\..\test_slfs\tn_user.c</file>
+      <file>$PROJ_DIR$\..\..\..\test_slfs\unix_str_func.c</file>
+      <file>$PROJ_DIR$\..\..\..\test_slfs\utils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\TNKernel\tn.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\TNKernel\tn_dqueue.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\TNKernel\tn_event.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\test1.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 94 32 86 93 85 122 49 118 102 97 100 103 8 69 52 88 111 113 9 120 34 31 91 12 121 11 27 90 107 35 106 108 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\test1_CortexM3\utils_uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\test_slfs\utils_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119 53 6 13 51 55 117 14 41 81 82 84 74 78 56</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119 53 6 13 51 55 117 14 41 81 82 84 74 78 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\test1_CortexM3\tn_sprintf.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 121</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\test1_CortexM3\tn_user.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\test1_CortexM3\test1.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\test1_CortexM3\lpc17xx_core.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 122</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\TNKernel\tn.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 111</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\test1_CortexM3\utils.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\TNKernel\tn_utils.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\TNKernel\tn_mutex.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\TNKernel\tn_event.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\fs_common\df_create_init.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119 53 6 13 51 55 117 14 41 81 75 73 84 74 76 89</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119 53 6 13 51 55 117 14 41 81 75 73 84 74 76 89</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\fs_common\df_flash.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82 84 74 75 73 89</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82 84 74 75 73 89</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\TNKernel\tn_dqueue.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 113</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\TNKernel\tn_tasks.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\TNKernel\CortexM3\tn_port_cm3.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 4 95</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\slfs\slfs_api.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 102</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119 53 6 13 51 55 117 14 41 81 75 73 84 74 76</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119 53 6 13 51 55 117 14 41 81 75 73 84 74 76</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\cpu\LPC17XX\lpc17xx_core.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 122</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\TNKernel\tn_mem.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 120</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84 74 101</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84 74 101</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\TNKernel\tn_mutex.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84 74 101</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84 74 101</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\TNKernel\CortexM3\tn_port_cm3.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84 74</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84 74</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\TNKernel\CortexM3\tn_port_cm3_iar.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\TNKernel\tn_sem.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84 74 101</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84 74 101</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\TNKernel\tn_tasks.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84 74 101</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84 74 101</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\TNKernel\tn_utils.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84 74 101</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84 74 101</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cstartup_LPC176X.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\startup_hardware_init_iar.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 88</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\TNKernel\CortexM3\tn_port_cm3_iar.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\fs_common\df_disk_access.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119 53 6 13 51 55 117 14 41 81 75 73 84 74 89</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119 53 6 13 51 55 117 14 41 81 75 73 84 74 89</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\TNKernel\tn_sem.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\TNKernel\tn_mem.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 120</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\slfs\slfs_api_ex.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119 53 6 13 51 55 117 14 41 81 75 73 84 74 76</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119 53 6 13 51 55 117 14 41 81 75 73 84 74 76</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\slfs\slfs_create_init.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119 53 6 13 51 55 117 14 41 81 75 73 84 74 76</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119 53 6 13 51 55 117 14 41 81 75 73 84 74 76</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\slfs\slfs_log.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119 53 6 13 51 55 117 14 41 81 75 73 84 74</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119 53 6 13 51 55 117 14 41 81 75 73 84 74</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\test_slfs\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119 53 6 13 51 55 117 14 41 81 83 82 84 74 73 75 76 77 78 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119 53 6 13 51 55 117 14 41 81 83 82 84 74 73 75 76 77 78 79</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\test_slfs\shell.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 118</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119 53 6 13 51 55 117 14 41 81 82 84 74 78 56 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119 53 6 13 51 55 117 14 41 81 82 84 74 78 56 79</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\test_slfs\slfs_rand.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73 84 74 77</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73 84 74 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\test_slfs\slfs_tst_dump.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119 53 6 13 51 55 117 14 41 81 73 84 74 76 75 77</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119 53 6 13 51 55 117 14 41 81 73 84 74 76 75 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\test_slfs\slfs_test_utilities.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119 53 6 13 51 55 117 14 41 81 73 84 74 76 75 77</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119 53 6 13 51 55 117 14 41 81 73 84 74 76 75 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\test_slfs\tn_sprintf.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 121</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 96 53 6 13 51 55 117 14</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96 53 6 13 51 55 117 14</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\test_slfs\tn_user.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82 84 74 78 56</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82 84 74 78 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\test_slfs\unix_str_func.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87 53 6 13 51 55 117 14 41</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87 53 6 13 51 55 117 14 41</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\test_slfs\utils.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87 53 6 13 51 55 117 14 41 82 84 74 78 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\TNKernel\tn.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 111</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84 74 101</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84 74 101</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\TNKernel\tn_dqueue.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 113</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84 74 101</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84 74 101</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\TNKernel\tn_event.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84 74 101</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84 74 101</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
